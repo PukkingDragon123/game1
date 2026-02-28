@@ -10,6 +10,7 @@ public class Enemymovement : MonoBehaviour
     public float force = 150;
     private Rigidbody rb;
     private GameObject player;
+    private GameObject point;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,8 @@ public class Enemymovement : MonoBehaviour
         {
             GameObject.Find("GameObject").GetComponent<Spawner>().countEnemy();
             Destroy(gameObject);
+            GameObject.FindObjectOfType<GameManager>().UpdateScore(1);
+            
         }
        
         

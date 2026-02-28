@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638565498670000000
-    m_Hash: 766427405
+      ticks: 639078682090000000
+    m_Hash: 776188261
   m_LockFileStatus:
     m_FilePath: /Users/beyondcode/Documents/game1/KEEN/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638565498690000000
-    m_Hash: 480106862
+      ticks: 639078682090000000
+    m_Hash: 4256576388
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -132,6 +132,7 @@ m_ResolvedPackages:
     - 2.10.2
     - 2.11.2
     - 2.11.3
+    - 2.11.4
     compatible:
     - 1.17.6
     - 1.17.7
@@ -170,6 +171,7 @@ m_ResolvedPackages:
     - 2.10.2
     - 2.11.2
     - 2.11.3
+    - 2.11.4
     verified: 1.17.7
   dependencies:
   - name: com.unity.services.core
@@ -718,12 +720,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.1.31
     nextVersion: 
-- packageId: com.unity.textmeshpro@3.0.6
+- packageId: com.unity.textmeshpro@3.0.9
   testable: 0
   isDirectDependency: 1
-  version: 3.0.6
+  version: 3.0.9
   source: 1
-  resolvedPath: /Users/beyondcode/Documents/game1/KEEN/Library/PackageCache/com.unity.textmeshpro@3.0.6
+  resolvedPath: /Users/beyondcode/Documents/game1/KEEN/Library/PackageCache/com.unity.textmeshpro@3.0.9
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -732,7 +734,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: asset
+  type: assets
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -904,13 +906,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637547111200000000
-  documentationUrl: 
+  datePublishedTicks: 638515173480000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
+    revision: 0af193626b4f76795f7cb6c9b0f55389d0e4b1d6
     path: 
   unityLifecycle:
     version: 3.0.6
@@ -1026,6 +1028,7 @@ m_ResolvedPackages:
     - 1.8.8
     - 1.8.9
     - 1.8.10
+    - 1.8.11
     compatible:
     - 1.6.4
     - 1.6.5
@@ -1218,6 +1221,7 @@ m_ResolvedPackages:
     - 1.9.7
     - 1.9.8
     - 1.9.9
+    - 1.9.10
     compatible:
     - 1.7.8
     - 1.8.0
@@ -1230,6 +1234,7 @@ m_ResolvedPackages:
     - 1.9.7
     - 1.9.8
     - 1.9.9
+    - 1.9.10
     verified: 1.7.8
   dependencies:
   - name: com.unity.ugui
@@ -3208,6 +3213,7 @@ m_ResolvedPackages:
     - 1.2.4
     - 1.3.0
     - 1.3.1
+    - 1.3.2
     compatible:
     - 1.1.1
     - 1.2.2
@@ -3215,6 +3221,7 @@ m_ResolvedPackages:
     - 1.2.4
     - 1.3.0
     - 1.3.1
+    - 1.3.2
     verified: 1.1.1
   dependencies: []
   resolvedDependencies: []

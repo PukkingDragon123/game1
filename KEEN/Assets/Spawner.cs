@@ -8,6 +8,7 @@ public class Spawner : MonoBehaviour
     public int enemyAmount = 3;
     private float spawnRange = 9;
     public GameObject enemyPrefab;
+    public GameObject powerPrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +27,16 @@ public class Spawner : MonoBehaviour
         }
 
     }
+    void powerWave()
+    {
+        int powerRandom = Random.Range(1, 3);
+        if(powerRandom == 1)
+        {
+            Instantiate(powerPrefab, Randomsumshi(), enemyPrefab.transform.rotation);
+        }
+
+ 
+    }
     // Update is called once per frame
     void Update()
     {  }
@@ -37,6 +48,11 @@ public class Spawner : MonoBehaviour
         {
             enemyAmount++;
             Wave();
+            GameObject powerupExist = GameObject.FindGameObjectWithTag("Power");
+            if (powerupExist is null)
+            {
+                powerWave();
+            }
         }
     }
 

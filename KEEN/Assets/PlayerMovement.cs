@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject powerUpIndicator;
     private float initialPowerTime = 0f;
     public float outTime = 3;
+    public GameObject deathpanel;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +34,12 @@ public class PlayerMovement : MonoBehaviour
         if (hasPower == true &&((powerDuration - (Time.time - initialPowerTime)) < outTime))
         {
             Debug.Log("Running out!");
+        }
+        if (transform.position.y < -1)
+        {
+            Destroy(gameObject);
+            deathpanel.SetActive(true);
+            gameObject.SetActive(false);
         }
     }
 
