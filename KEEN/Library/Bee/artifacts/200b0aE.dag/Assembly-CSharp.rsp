@@ -355,6 +355,8 @@
 "Assets/Course Library/NewBehaviourScript.cs"
 "Assets/Course Library/Script/CameraController.cs"
 "Assets/Course Library/Script/PowerScript.cs"
+"Assets/Course Library/Target.cs"
+"Assets/Course Library/_Source_Files/Scripts/DestroyAfterDelay.cs"
 "Assets/Enemymovement.cs"
 "Assets/GameManager.cs"
 "Assets/PlayerMovement.cs"
