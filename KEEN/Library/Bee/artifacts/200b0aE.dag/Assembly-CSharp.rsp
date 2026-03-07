@@ -359,6 +359,7 @@
 "Assets/Course Library/_Source_Files/Scripts/DestroyAfterDelay.cs"
 "Assets/Enemymovement.cs"
 "Assets/GameManager.cs"
+"Assets/Gamemanagerscript.cs"
 "Assets/PlayerMovement.cs"
 "Assets/Spawner.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

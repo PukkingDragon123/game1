@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4475653258632207947}
   - component: {fileID: 2702161454472353323}
   - component: {fileID: -952930478705574827}
+  - component: {fileID: 4011311140305196909}
   m_Layer: 0
   m_Name: Ball_8Ball
   m_TagString: Untagged
@@ -113,3 +114,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14018212d9244544b13fbaa5cf758d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  force: 10
+  forcex: 3
+  bomb: 0
+  explode: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
+--- !u!65 &4011311140305196909
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4488858963869853867}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
