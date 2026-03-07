@@ -41,7 +41,7 @@ public class Gamemanagerscript : MonoBehaviour
     public void UpdatePoint(int newscore)
     {
         score += newscore;
-        scoretxt.text = "SCORE:" + score.ToString();
+        scoretxt.text = "SCORE: " + score.ToString();
     }
 
     
