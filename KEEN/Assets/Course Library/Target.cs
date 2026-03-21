@@ -30,8 +30,11 @@ public class Target : MonoBehaviour
         {
 
             Destroy(gameObject);
-
-
+            if(bomb == false)
+            {
+                GameObject.FindObjectOfType<Gamemanagerscript>().UpdatePoint(-1);
+            }
+            
         }
     }
     private void OnMouseDown()
@@ -44,7 +47,7 @@ public class Target : MonoBehaviour
         }
         else
         {
-            GameObject.FindObjectOfType<Gamemanagerscript>().UpdatePoint(99999);
+            GameObject.FindObjectOfType<Gamemanagerscript>().UpdatePoint(1);
         }
         Destroy(gameObject);
     }
